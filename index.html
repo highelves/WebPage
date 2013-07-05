@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en" class=" js no-touch csstransforms csstransitions js cssanimations csstransitions js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms no-csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths js flexbox flexboxlegacy canvas canvastext webgl no-touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms no-csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Synapz | Welcome...</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<!-- CSS Global Compulsory-->
+	<!--link rel="stylesheet" href="./cssbootstrap.min.css"-->
+	<link rel="stylesheet" href="./css/style.css">
+	<link rel="stylesheet" href="http://htmlstream.com/unify/assets/css/headers/header1.css">
+	
+	<!--link rel="stylesheet" href="./css/bootstrap-responsive.min.css"-->
+	<link rel="stylesheet" href="http://htmlstream.com/unify/assets/css/style_responsive.css">
+	<link rel="shortcut icon" href="http://htmlstream.com/unify/favicon.ico">        
+	
+	<!-- CSS Implementing Plugins -->    
+	<link rel="stylesheet" href="http://htmlstream.com/unify/assets/plugins/font-awesome/css/font-awesome.css">
+	<link rel="stylesheet" href="./css/flexslider.css" type="text/css" media="screen">    	
+	<link rel="stylesheet" href="./css/parallax-slider.css" type="text/css">
+	
+	<!-- CSS Theme -->    
+	<link rel="stylesheet" href="http://htmlstream.com/unify/assets/css/themes/default.css" id="style_color">
+	<link rel="stylesheet" href="http://htmlstream.com/unify/assets/css/themes/headers/default.css" id="style_color-header-1">    
+	
+	<!--Files included from othewr webpage-->
+
+	<link href="./css/css" rel="stylesheet" type="text/css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="./css/animate.css" rel="stylesheet" type="text/css">
+	<!--link rel="stylesheet" href="./signin_files/flexslider.css" type="text/css" media="screen"-->
+	<!--link rel="stylesheet" href="./css/prettyPhoto.css" type="text/css" media="screen"-->
+	<link href="./css/style1.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="./css/font-awesome.min.css" media="screen">
+	
+<style>
+.round{
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
+    border-radius: 500px;
+
+}
+.btn{
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+.dropdown-menu{
+    border-radius: 0px;
+    /*padding: 5px 0 !important; */
+}
+
+a:hover{
+text-decoration:none;
+}
+
+</style>
+
+<script type="text/javascript">
+function toggle_body(){
+    $("#topLog").toggle();
+    $("#test").toggle();
+    $("#login").toggle();
+
+};
+
+function toggleContent() {
+  var contentId1 = document.getElementById("topLog");
+  contentId1.style.display == "block" ? contentId1.style.display = "none":contentId1.style.display = "block"; 
+  var contentId2 = document.getElementById("test");
+  contentId2.style.display == "block" ? contentId2.style.display = "none":contentId2.style.display = "block"; 
+  var contentId3 = document.getElementById("login");
+  contentId3.style.display == "block" ? contentId3.style.display = "none":contentId3.style.display = "block"; 
+}
+</script>
+
+</head>	
+
+<body>
+<!--=== Top ===-->    
+
+<div class="top ">
+    <div  id="topLog" style="display:block;">
+        <div class="container pull-right">   
+        
+	<!--button onclick="toggleContent()">Toggle</button-->    
+    	   <div id="sign" class="text-left">
+                <a class="btn btn-u btn-u-large" type="button" data-toggle="collapse" onclick="toggle_body()"><i class="icon icon-user"></i>&nbsp;&nbsp;Register/Sign in</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--/top-->
+<!--=== End Top ===-->    
+
+<!--=== Header ===-->
+<header>
+    <div class="header" style="font-family:'Open Sans', sans-serif; font-size: 14px;";>               
+        <div class="container"> 
+            <!-- Logo -->       
+            <div class="logo">                                             
+                <a href="./index.html"><img id="logo-header" src="./img/logo1-default.png" alt="Logo"></a>
+            </div><!-- /logo -->        
+                                    
+            <!-- Menu -->       
+            <div class="navbar">                                
+                <div class="navbar-inner">       
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
+                    <!-- /nav-collapse -->                                  
+                    <div class="nav-collapse collapse">                                     
+                        <ul class="nav top-2">
+                            <li class="active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home               
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li class="active"><a href="./index.html">Option1: Landing Page</a></li>
+                                    <li><a href="#">Option2: Header Option</a></li>
+                                    <li><a href="#">Option3: Revolution Slider</a></li>
+                                </ul>
+                                <b class="caret-out"></b>                        
+                            </li>
+                            <li>
+                                <a href="" class="dropdown-toggle" data-toggle="dropdown">Pages
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">About Us</a></li>
+                                    <li><a href="#">Services</a></li>
+                                </ul>
+                                <b class="caret-out"></b>        
+                            </li>
+                            <li>
+                                <a href="" class="dropdown-toggle" data-toggle="dropdown">Features
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Grid Layout</a></li>
+                                    <li><a href="#">Typography</a></li>
+                                    <li><a href="#">Thumbnails</a></li>
+                                </ul>
+                                <b class="caret-out"></b>    
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Portfolio
+                                                          
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Portfolio</a></li>
+                                    <li><a href="#">Portfolio Item</a></li>
+                                </ul>
+                                <b class="caret-out"></b>
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Blog
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Blog</a></li>
+                                    <li><a href="#">Blog Item</a></li>
+                                </ul>
+                                <b class="caret-out"></b>       
+                            </li>
+                            <li>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Contact
+                                                        
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">Contact Default</a></li>
+                                    <li><a href="#">Contact Boxed Map</a></li>
+                                </ul>
+                                <b class="caret-out"></b>
+                            </li>                 
+                        </ul>
+                    </div><!-- /nav-collapse -->
+                </div><!-- /navbar-inner -->
+            </div><!-- /navbar -->
+	                        
+        </div><!-- /container -->               
+    </div><!--/header -->      
+<!--=== End Header ===-->
+</header>
+
+<div  id="test" style="display:block;">
+<!--=== Slider ===-->
+<div class="slider-inner">
+    <div id="da-slider" class="da-slider" style="background-position: 950% 0%;">
+        <div class="da-slide da-slide-toleft">
+            <h2><i>CLEAN &amp; FRESH</i> <br> <i>FULLY RESPONSIVE</i> <br> <i>DESIGN</i></h2>
+            <p><i>Lorem ipsum dolor amet</i> <br> <i>tempor incididunt ut</i> <br> <i>veniam omnis </i></p>
+            <div class="da-img"><img src="./img/1.png" alt=""></div>
+        </div>
+        <div class="da-slide da-slide-fromright da-slide-current">
+            <h2><i>RESPONSIVE VIDEO</i> <br> <i>SUPPORT AND</i> <br> <i>MANY MORE</i></h2>
+            <p><i>Lorem ipsum dolor amet</i> <br> <i>tempor incididunt ut</i></p>
+            <div class="da-img span6">
+            	<div class="span6">
+			<iframe src="./html/47911018.html" width="100%" height="320" frameborder="0" webkitallowfullscreen="" mozallowfullscreen="" allowfullscreen=""></iframe> 
+ 		</div>
+            </div>
+        </div>
+        <div class="da-slide da-slide-toleft">
+            <h2><i>USING BEST WEB</i> <br> <i>SOLUTIONS WITH</i> <br> <i>HTML5/CSS3</i></h2>
+            <p><i>Lorem ipsum dolor amet</i> <br> <i>tempor incididunt ut</i> <br> <i>veniam omnis </i></p>
+            <div class="da-img"><img src="./img/html5andcss3.png" alt="image01"></div>
+        </div>	
+        <nav class="da-arrows">
+            <span class="da-arrows-prev"></span>
+            <span class="da-arrows-next"></span>		
+        </nav>
+    <nav class="da-dots"><span class=""></span><span class="da-dots-current"></span><span class=""></span></nav></div><!--/da-slider-->
+</div><!--/slider-->
+<!--=== End Slider ===-->
+
+<!--=== Purchase Block ===-->
+<div class="row-fluid purchase margin-bottom-30">
+    <div class="container">
+		<div class="span12">
+            <center><span>Synapz is an Artificial Intelligence based technology platform</br> connecting students, colleges and companies.</span></center>
+            <p></p>
+        </div>
+    </div>
+</div><!--/row-fluid-->
+<!-- End Purchase Block -->
+
+<!--=== Content Part ===-->
+<div class="container">	
+	<!-- Recent Works -->
+	<div class="headline"><h3>What we do</h3></div>
+    <ul class="thumbnails">
+        <li class="span4">
+            <div class="thumbnail-style thumbnail-kenburn">
+            	<div class="thumbnail-img">
+                    <div class="overflow-hidden"><img src="./img/2.jpg" alt=""></div>
+                    <a class="btn-more hover-effect" href="#">read more +</a>					
+                </div>
+                <h3><a class="hover-effect" href="#">Students</a></h3>
+                <p>Discover your passion and showcase your true potential.</br>
+			<ul class="unstyled">
+		            	<li><i class="icon-ok color-green"></i> Explore opportunities.</li>
+		            	<li><i class="icon-ok color-green"></i> Solve challenges posted by companies.</li>
+		            	<li><i class="icon-ok color-green"></i> Win internships and full time jobs at your dream company.</li>
+		</p>
+            </div>
+        </li>
+        <li class="span4">
+            <div class="thumbnail-style thumbnail-kenburn">
+            	<div class="thumbnail-img">
+                    <div class="overflow-hidden"><img src="./img/3.jpg" alt=""></div>
+                    <a class="btn-more hover-effect" href="#">read more +</a>					
+                </div>
+                <h3><a class="hover-effect" href="#">Colleges</a></h3>
+                <p>Discover your passion and showcase your true potential.</br>
+			<ul class="unstyled">
+		            	<li><i class="icon-ok color-green"></i> Explore opportunities.</li>
+		            	<li><i class="icon-ok color-green"></i> Solve challenges posted by companies.</li>
+		            	<li><i class="icon-ok color-green"></i> Win internships and full time jobs at your dream company.</li>
+		</p>
+            </div>
+        </li>
+        <li class="span4">
+            <div class="thumbnail-style thumbnail-kenburn">
+            	<div class="thumbnail-img">
+                    <div class="overflow-hidden"><img src="./img/9.jpg" alt=""></div>
+                    <a class="btn-more hover-effect" href="#">read more +</a>					
+                </div>
+                <h3><a class="hover-effect" href="#">Companies</a></h3>
+                <p>Discover your passion and showcase your true potential.</br>
+			<ul class="unstyled">
+		            	<li><i class="icon-ok color-green"></i> Explore opportunities.</li>
+		            	<li><i class="icon-ok color-green"></i> Solve challenges posted by companies.</li>
+		            	<li><i class="icon-ok color-green"></i> Win internships and full time jobs at your dream company.</li>
+		</p>
+            </div>
+        </li>
+    </ul><!--/thumbnails-->
+	<!-- //End Recent Works -->
+    
+	<!-- Information Blokcs -->
+	<div class="row-fluid margin-bottom-20">	
+	</div><!--/row-fluid-->	
+	<!-- //End Information Blokcs -->
+
+	<!-- Our Clients -->
+	<div id="clients-flexslider" class="flexslider home clients">
+        <div class="headline"><h3>Our Clients</h3></div>	
+		
+	<div class="flex-viewport" style="overflow: hidden; position: relative;"><ul class="slides" style="width: 3400%; -webkit-transition: 0s; transition: 0s; -webkit-transform: translate3d(-260px, 0, 0);">
+			<li style="width: 129px; float: left; display: block;">
+                <a href="#">
+                    <img src="./img/hp_grey.png" alt=""> 
+                    <img src="./img/hp.png" class="color-img" alt="">
+                </a>
+            </li>
+			<li style="width: 129px; float: left; display: block;">
+                <a href="#">
+                    <img src="./img/igneus_grey.png" alt=""> 
+                    <img src="./img/igneus.png" class="color-img" alt="">
+                </a>
+            </li>
+			<li style="width: 129px; float: left; display: block;">
+                <a href="#">
+                    <img src="./img/vadafone_grey.png" alt=""> 
+                    <img src="./img/vadafone.png" class="color-img" alt="">
+                </a>
+            </li>
+			<li style="width: 129px; float: left; display: block;">
+                <a href="#">
+                    <img src="./img/walmart_grey.png" alt=""> 
+                    <img src="./img/walmart.png" class="color-img" alt="">
+                </a>
+            </li>
+			<li style="width: 129px; float: left; display: block;">
+                <a href="#">
+                    <img src="./img/shell_grey.png" alt=""> 
+                    <img src="./img/shell.png" class="color-img" alt="">
+                </a>
+            </li>
+			<li style="width: 129px; float: left; display: block;">
+                <a href="#">
+                    <img src="./img/natural_grey.png" alt=""> 
+                    <img src="./img/natural.png" class="color-img" alt="">
+                </a>
+            </li>
+			<li style="width: 129px; float: left; display: block;">
+                <a href="#">
+                    <img src="./img/aztec_grey.png" alt=""> 
+                    <img src="./img/aztec.png" class="color-img" alt="">
+                </a>
+            </li>
+			<li style="width: 129px; float: left; display: block;">
+                <a href="#">
+                    <img src="./img/gamescast_grey.png" alt=""> 
+                    <img src="./img/gamescast.png" class="color-img" alt="">
+                </a>
+            </li>
+			<li style="width: 129px; float: left; display: block;">
+                <a href="#">
+                    <img src="./img/cisco_grey.png" alt=""> 
+                    <img src="./img/cisco.png" class="color-img" alt="">
+                </a>
+            </li>
+			<li style="width: 129px; float: left; display: block;">
+                <a href="#">
+                    <img src="./img/everyday_grey.png" alt=""> 
+                    <img src="./img/everyday.png" class="color-img" alt="">
+                </a>
+            </li>
+			<li style="width: 129px; float: left; display: block;">
+                <a href="#">
+                    <img src="./img/cocacola_grey.png" alt=""> 
+                    <img src="./img/cocacola.png" class="color-img" alt="">
+                </a>
+            </li>
+			<li style="width: 129px; float: left; display: block;">
+                <a href="#">
+                    <img src="./img/spinworkx_grey.png" alt=""> 
+                    <img src="./img/spinworkx.png" class="color-img" alt="">
+                </a>
+            </li>
+			<li style="width: 129px; float: left; display: block;">
+                <a href="#">
+                    <img src="./img/shell_grey.png" alt=""> 
+                    <img src="./img/shell.png" class="color-img" alt="">
+                </a>
+            </li>
+			<li style="width: 129px; float: left; display: block;">
+                <a href="#">
+                    <img src="./img/natural_grey.png" alt=""> 
+                    <img src="./img/natural.png" class="color-img" alt="">
+                </a>
+            </li>
+			<li style="width: 129px; float: left; display: block;">
+                <a href="#">
+                    <img src="./img/gamescast_grey.png" alt=""> 
+                    <img src="./img/gamescast.png" class="color-img" alt="">
+                </a>
+            </li>
+			<li style="width: 129px; float: left; display: block;">
+                <a href="#">
+                    <img src="./img/everyday_grey.png" alt=""> 
+                    <img src="./img/everyday.png" class="color-img" alt="">
+                </a>
+            </li>
+			<li style="width: 129px; float: left; display: block;">
+                <a href="#">
+                    <img src="./img/spinworkx_grey.png" alt=""> 
+                    <img src="./img/spinworkx.png" class="color-img" alt="">
+                </a>
+            </li>
+		</ul></div></div><!--/flexslider-->
+	<!-- //End Our Clients -->
+</div><!--/container-->		
+<!-- End Content Part -->
+</div>
+
+
+<!-- ====LOGIN===== -->
+<div id="login" style="display:none;">
+       <div class="container">
+          <section id="register">
+             <div class="hgroup">
+                <!--h1>Register or Sign in</h1-->
+                        <ul class="breadcrumb pull-right">
+                             <li><a href="#">Home</a> <span class="divider">/</span></li>
+                             <li class="active">Register of Sign in</li>
+                        </ul>
+                                  </div>
+                    <div class="row">
+                        <div class="signin span6">
+
+                            <div class="social_sign">
+                                <h3>Sign in with your social account</h3>
+                                
+                                <a class="fb" href="#"><i class="icon icon-facebook"></i></a>
+				<a class="tw" href="#"><i class="icon icon-twitter"></i></a>
+				<a class="gp" href="#"><i class="icon icon-google-plus"></i></a>
+                            </div>
+
+                            <div class="or">
+                                <div class="or_l"></div>
+                                <span>or</span>
+                                <div class="or_r"></div>
+                            </div>
+
+                            <p class="sign_title">Log in with your site account</p>
+
+                            <div class="form">
+                                <form>
+                                    <input type="text" placeholder="Email" class="input-xlarge">
+                                    <input type="text" placeholder="Password" class="input-xlarge">
+                                    <div class="forgot">
+                                       <label class="checkbox">
+                                        <input type="checkbox"> Remember me
+                                    </label><a href="#">Forgot password?</a>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary btn-large">Sign in</button>
+                            </form>
+                        </div>
+
+                    </div>
+
+                    <div class="signup span6">
+
+                        <form>
+                            <fieldset>
+                                <div class="social_sign">
+                                    <h3>Don't have a site account yet?</h3>
+                                    <a><i class="icon icon-user"></i></a>
+                                </div>
+                                <p class="sign_title">Create one now, it's fast &amp; free!</p>
+
+
+
+                                <input id="Username" name="Username" placeholder="Username" class="input-xlarge" required="" type="text">
+
+
+
+                                <input id="Email address" name="Email address" placeholder="Email address" class="input-xlarge" required="" type="text">
+
+
+
+
+                                <input id="Password" name="Password" placeholder="Password" class="input-xlarge" required="" type="password">
+
+
+
+
+                                <label class="checkbox">
+                                  <input name="checkboxes" value="Option one" type="checkbox">
+                                  I agree to the <a href="#">terms and conditions</a>
+                              </label>
+
+
+
+                              <button type="submit" class="btn btn-u btn-u-large">Create your account</button>
+
+                          </fieldset>
+                      </form>
+
+                  </div>
+              </div>
+          </section>
+      </div>
+
+
+</div>
+
+
+<!--=== Footer ===-->
+<div class="footer" style="font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 14px;">
+	<div class="container">
+		<div class="row-fluid">
+			<div class="span3">
+
+				<!-- Monthly Newsletter -->
+		        	<div class="headline"><h3>Contact Us</h3></div>	
+                		<address>
+					#401 Bliss Castle, <br>
+					Near Hitex, Madhapur<br>
+					Hyderabad<br>
+					Ph : +91-99999-99999 <br>
+					Email: <a href="mailto:info@thesynapz.com" class="">info@thesynapz.com</a>
+               			</address>
+	
+				<!-- Stay Connected -->
+		        	<div class="headline"><h3>Stay Connected</h3></div>	
+                			<ul class="social-icons">
+                    				<li><a href="#" data-original-title="Facebook" class="social_facebook"></a></li>
+                    				<li><a href="#" data-original-title="Twitter" class="social_twitter"></a></li>
+                    				<li><a href="#" data-original-title="Goole Plus" class="social_googleplus"></a></li>
+                    				<li><a href="#" data-original-title="Linkedin" class="social_linkedin"></a></li>
+                			</ul>
+			</div><!--/span3-->
+
+			<div class="span5">
+                	<!-- About -->
+		        	<div class="headline"><h3>About Us</h3></div>	
+				<p class="margin-bottom-25">Synapz is an incredibly technology firm for corporates, colleges and students.</p>							
+			</div><!--/span5-->	
+			
+			<div class="span4">
+               			<div class="headline"><h3>Monthly Newsletter</h3></div>	
+				<p>Subscribe to our newsletter and stay up to date with the latest updates about us!</p>
+				<form class="form-inline">
+					<div class="input-append">
+						<input type="text" placeholder="Email Address" class="input-medium">
+						<button class="btn-u">Subscribe</button>
+					</div>
+				</form>	
+			</div><!--/span4-->
+		</div><!--/row-fluid-->	
+	</div><!--/container-->	
+</div><!--/footer-->	
+<!--=== End Footer ===-->
+
+<!--=== Copyright ===-->
+<div class="copyright">
+	<div class="container">
+		<div class="row-fluid">
+			<div class="span8">						
+	          		<p>2013 © Synapz Adaptive Technologies. All Rights Reserved. <!--a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a--></p>
+			</div>
+			<div class="span4">	
+				<a href="#"><img id="logo-footer" src="./img/logo2-default.png" class="pull-right" alt=""></a>
+			</div>
+		</div><!--/row-fluid-->
+	</div><!--/container-->	
+</div><!--/copyright-->	
+<!--=== End Copyright ===-->
+
+<!-- JS Global Compulsory -->			
+<script type="text/javascript" src="./js/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="./js/modernizr.custom.js"></script>		
+<script type="text/javascript" src="./js/bootstrap.min.js"></script>	
+
+<!-- JS Implementing Plugins -->           
+<script type="text/javascript" src="./js/jquery.flexslider-min.js"></script>
+<script type="text/javascript" src="./js/modernizr.js"></script>
+<script type="text/javascript" src="./js/jquery.cslider.js"></script> 
+<script type="text/javascript" src="./js/back-to-top.js"></script>
+
+<!-- JS Page Level -->           
+<script type="text/javascript" src="./js/app.js"></script>
+<script type="text/javascript" src="./js/index.js"></script>
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+      	App.init();
+        App.initSliders();
+        Index.initParallaxSlider();
+    });
+</script>
+
+<!--[if lt IE 9]>
+    <script src="assets/js/respond.js"></script>
+<![endif]-->
+
+<div id="topcontrol" title="Scroll Back to Top" style="position: fixed; bottom: 5px; right: 5px; opacity: 0; cursor: pointer;"><img src="./img/up.png" style="width:51px; height:42px"></div>
+</body>
+</html>
